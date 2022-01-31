@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tris</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <script src="js/myjava.js"></script>
+</head>
+
+<body onload="startGame()">
+	<h1>Tris</h1>
+		<div id="message"></div>
+	<table>
+		<tr>
+			<td class="square" id="s1" onclick="nextMove(this)"></td>
+			<td class="square" id="s2" onclick="nextMove(this)"></td>
+			<td class="square" id="s3" onclick="nextMove(this)"></td>
+		</tr>
+		<tr>
+			<td class="square" id="s4" onclick="nextMove(this)"></td>
+			<td class="square" id="s5" onclick="nextMove(this)"></td>
+			<td class="square" id="s6" onclick="nextMove(this)"></td>
+		</tr>
+		<tr>
+			<td class="square" id="s7" onclick="nextMove(this)"></td>
+			<td class="square" id="s8" onclick="nextMove(this)"></td>
+			<td class="square" id="s9" onclick="nextMove(this)"></td>
+		</tr>
+	</table>
+	<a href="JavaScript: startGame()" id="reset">Restart</a>
+	
+</body>
+</html>
